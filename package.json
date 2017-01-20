@@ -4,6 +4,7 @@
   "description": "Kik bot that creates groups or chooses a first player for playing board games.",
   "main": "server.js",
   "scripts": {
+    "now-start": "NODE_ENV=production node server.js",
     "start": "nodemon server.js"
   },
   "repository": {

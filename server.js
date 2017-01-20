@@ -14,6 +14,9 @@ const bot = new Bot({
   baseUrl: __CONFIG__.kik.baseUrl
 })
 
+logger.log('info', `env: ${process.env.NODE_ENV}`)
+logger.log('info', `baseUrl: ${__CONFIG__.kik.baseUrl}`)
+
 // updates configuration and auth
 bot.updateBotConfiguration()
 
