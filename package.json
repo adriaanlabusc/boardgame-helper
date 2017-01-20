@@ -1,0 +1,29 @@
+{
+  "name": "boardgame-helper",
+  "version": "0.0.1",
+  "description": "Kik bot that creates groups or chooses a first player for playing board games.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriaanlabusc/boardgame-helper.git"
+  },
+  "author": "Adriaan Labuschagne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriaanlabusc/boardgame-helper.git/issues"
+  },
+  "homepage": "https://github.com/adriaanlabusc/boardgame-helper.git#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
+  "dependencies": {
+    "@kikinteractive/kik": "^2.0.0",
+    "moment": "^2.12.0",
+    "superagent": "^1.8.3",
+    "winston": "^2.2.0", 
+    "shuffle-array": "^1.0.0"
+  }
+}
